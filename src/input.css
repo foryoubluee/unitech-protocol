@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0; padding: 0;
+}
+
+body {
+   background-color: #047ee1;
+   overflow-x: hidden;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cont {
+   margin: 0px auto;
+}
+
+.down {
+   transform: scale(0.96);
+   height: min-content;
+}
+
+.drop {
+   transition: 0.7s;
+}
+
+.rot {
+   transform: rotate(-180deg);
+}
+
+.phase {
+   transition: 0.7s;
+}
+
+.mt-1, .zep {
+   transform: scale(0.9);
+}
+
+.dropdown {
+   transform: translateY(-300px);
+}
+
+.show {
+   position: fixed;
+   background-color: #047ee1;
+   height: 50vh;
+   padding: 20px;
+   width: 100%;
+   transform: translateY(50px);
+}
+
+/* unitech main face */
+.z-5 {
+   background: rgb(59, 138, 212);
+   padding: 25px;
+   opacity: 0.9;
+}
+
+.space {
+   width: 55vmin;
+}
+
+.man {
+   width: 80vmin;
+}
