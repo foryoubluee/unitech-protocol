@@ -14,6 +14,14 @@ body {
 }
 
 .cont {
+   scroll-behavior: smooth;
+}
+
+.tokenomics {
+   width: 70vmin;
+}
+
+.cont {
    margin: 0px auto;
 }
 
@@ -48,6 +56,7 @@ body {
 
 .show {
    position: fixed;
+   right: 0;
    background-color: #047ee1;
    height: 50vh;
    padding: 20px;
@@ -62,10 +71,34 @@ body {
    opacity: 0.9;
 }
 
-.space {
-   width: 55vmin;
+.man {
+   width: 65vmin;
 }
 
-.man {
-   width: 80vmin;
+.info {
+   width: 90vmin;
 }
+
+.info-img {
+   width: 50vmin;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+   .info-img {
+     width: 30vmin;
+   }
+   .com {
+      width: 70vmin;
+   }
+   .info {
+      width: 70vmin;
+   }
+   .dropdown {
+      transform: translateY(-700px);
+   }
+   .show {
+      transform: translateY(70px);
+   }
+ }

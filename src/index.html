@@ -11,37 +11,59 @@
    <div class="cont max-w-[1440px] h-fit text-white">
       <!-- NAVBAR -->
       <nav class="flex justify-between fixed w-full px-7 py-4 md:px-6 md:py-4 z-20 bg-[#047ee1] shadow-md">
-         <div class="flex w-[74%] justify-between items-center">
+         <div class="flex w-[74%] md:w-[19%] justify-between items-center">
             <img src="../public/lohoUnitech.png" alt="unitech logo" width="40px">
             <h1 class="text-white font-bold text-2xl">Unitech Protocol</h1>
          </div>
          <img src="../public/menu.svg" alt="down" width="30px" class="navDrop">
       </nav>
-      <div class="dropdown flex flex-col justify-evenly w-[95%] h-[50vh] z-10 shadow-md">
+      <div class="dropdown flex flex-col justify-evenly w-[95%] sm:w-[20%] h-[50vh] z-10 shadow-md">
          <a href="#home" class="link font-bold text-md">Home</a>
-         <a href="" class="link font-bold text-md">Whitepaper</a>
+         <a href="../document/UnitechLitepaper.pdf" class="link font-bold text-md">Litepaper</a>
          <a href="#tokenomics" class="link font-bold text-md">Tokenomics</a>
          <a href="#roadmap" class="link font-bold text-md">Roadmap</a>
          <a href="#community" class="link font-bold text-md">Community</a>
       </div>
       <!-- Main face -->
-      <section class="p-4 xl:pl-20 h-[65vh] xl:h-[95vh] felx justify-center items-center">
+      <section class="px-4 py-8 xl:pl-20 h-min xl:h-[100vh] felx justify-center items-center">
          <div class="absolute top-20 z-[-2]">
             <p class="font-bold text-sm">DeFI Protocol.1</p>
-            <img id="home" src="../public/spc.png" alt="logo" class="space">
+            <img id="home" src="../public/man.png" alt="logo" class="man">
          </div>
-         <div class="w-[75%] ml-[25%] mt-[-190px] z-5 rounded-md">
+         <div class="w-[75%] md:text-2xl md:w-[50%] sm:ml-[40%] ml-[25%] mt-[-190px] z-5 rounded-md">
             <p>Since we came across the opportunities that are available with decentralized staking we are striving to bring this concept to broader masses. Unitech is the first project that aims to bring decentralized benefits and functionality to a broader audience, without building a centralized organisation.</p>
          </div>
-         <div class="absolute bottom-[-10] mt-6 z-[-2]">
-            <p class="font-bold">Protocol Security.1</p>
-            <img src="../public/man.png" alt="logo" class="man">
+         <div class="mt-6 p-4 grid place-content-center">
+            <img src="../public/info.png" alt="logo" class="info">
          </div>
       </section>
-      <!-- founder -->
-      <!-- <section class="w-[100%] flex items-center justify-center px-6 py-16 bg-[#0368ba]">
-         <img src="../public/prof.png" width="400vmax" class="ml-[-15px]">
-      </section> -->
+      <!-- info -->
+      <section class="w-[100%] h-min gap-6 grid grid-rows-3 px-4 py-10 bg-[#0368ba]">
+         <div class="flex flex-col justify-center items-center">
+            <img src="../public/rocket.png" class="info-img" alt="rocket">
+            <br>
+            <div class="w-[85%] md:w-[30%]">
+               <h1 class="font-bold">Health Care</h1>
+               <p>We will keep make the healthy chart, with tokenomics Rnd which is there (buyback) to maintain the chart and make new/old</p>
+            </div>
+         </div>   
+         <div class="flex flex-col justify-center items-center">
+            <img src="../public/cube.png" class="info-img" alt="rocket">
+            <br>
+            <div class="w-[85%] md:w-[30%]">
+               <h1 class="font-bold">Cross Chain</h1>
+               <p>Unitech greatly expands the capabilities of smart contracts by enabling access to real-world data and off-chain computation.</p>
+            </div>
+         </div>   
+         <div class="flex flex-col justify-center items-center">
+            <img src="../public/horn.png" class="info-img" alt="rocket">
+            <br>
+            <div class="w-[85%] md:w-[30%]">
+               <h1 class="font-bold">Our Best Gift</h1>
+               <p>This is a cryptocurrency, no one knows about future market conditions, but we will always try to keep the charts healthy with the funds we have!</p>
+            </div>
+         </div>   
+      </section>
       <!-- roadmap -->
       <section id="roadmap" class="roadmap grid place-items-center cont w-[100%] h-max px-4 bg-white overflow-hidden">
          <!-- Roadmap container -->
@@ -54,56 +76,103 @@
                      <h1>Phase 1</h1>
                      <img class="drop" src="../public/dropdown.svg" alt="drop" width="17px">
                   </div>
-                  <p class="font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi porro odit tenetur quasi enim natus maiores esse ea at. Placeat dolorum iusto, consectetur quisquam quam quos molestiae voluptatem excepturi perspiciatis rerum cum laborum voluptatibus dicta delectus saepe adipisci atque possimus?</p>
+                  <ul>
+                     <li>• Build Community</li>
+                     <li>• Website Development</li>
+                     <li>• Marketing Push</li>
+                     <li>• Make Others Social media</li>
+                     <li>• Website live</li>
+                     <li>• Shilling Contest</li>
+                  </ul>
                </div>
                <div class="phase shadow-md xl:shadow-sm xl:shadow-sky-500 flex flex-col justify-between p-4 font-medium h-[55px] overflow-y-hidden">
                   <div class="flex justify-between w-full mb-3">
                      <h1>Phase 2</h1>
                      <img class="drop" src="../public/dropdown.svg" alt="drop" width="17px">
                   </div>
-                  <p class="font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi porro odit tenetur quasi enim natus maiores esse ea at. Placeat dolorum iusto, consectetur quisquam quam quos molestiae voluptatem excepturi perspiciatis rerum cum laborum voluptatibus dicta delectus saepe adipisci atque possimus?</p>
+                  <ul>
+                     <li>• Deployed contract (BSC)</li>
+                     <li>• Prepare The Launch</li>
+                     <li>• Push Marketing</li>
+                     <li>• Launch 5 april (pancake swap)</li>
+                     <li>• Released Dapps (v1 version)</li>
+                     <li>• Special Surprise At 50k Mcap</li>
+                  </ul>
                </div>
                <div class="phase shadow-md xl:shadow-sm xl:shadow-sky-500 flex flex-col justify-between p-4 font-medium h-[55px] overflow-y-hidden">
                   <div class="flex justify-between w-full mb-3">
                      <h1>Phase 3</h1>
                      <img class="drop" src="../public/dropdown.svg" alt="drop" width="17px">
                   </div>
-                  <p class="font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi porro odit tenetur quasi enim natus maiores esse ea at. Placeat dolorum iusto, consectetur quisquam quam quos molestiae voluptatem excepturi perspiciatis rerum cum laborum voluptatibus dicta delectus saepe adipisci atque possimus?</p>
+                  <ul>
+                     <li>• Massive Marketing</li>
+                     <li>• Release Staking Platform</li>
+                     <li>• Unitech Wallet</li>
+                     <li>• Special Surprise at 150k mcap</li>
+                     <li>• Applied Cg & Cmc</li>
+                     <li>• Lbank Listing</li>
+                     <li>• Burn and buy back</li>
+                  </ul>
                </div>
                <div class="phase shadow-md xl:shadow-sm xl:shadow-sky-500 flex flex-col justify-between p-4 font-medium h-[55px] overflow-y-hidden">
                   <div class="flex justify-between w-full mb-3">
                      <h1>Phase 4</h1>
                      <img class="drop" src="../public/dropdown.svg" alt="drop" width="17px">
                   </div>
-                  <p class="font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi porro odit tenetur quasi enim natus maiores esse ea at. Placeat dolorum iusto, consectetur quisquam quam quos molestiae voluptatem excepturi perspiciatis rerum cum laborum voluptatibus dicta delectus saepe adipisci atque possimus?</p>
-               </div>
-               <div class="phase shadow-md xl:shadow-sm xl:shadow-sky-500 flex flex-col justify-between p-4 font-medium h-[55px] overflow-y-hidden">
-                  <div class="flex justify-between w-full mb-3">
-                     <h1>Phase 5</h1>
-                     <img class="drop" src="../public/dropdown.svg" alt="drop" width="17px">
-                  </div>
-                  <p class="font-normal">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi porro odit tenetur quasi enim natus maiores esse ea at. Placeat dolorum iusto, consectetur quisquam quam quos molestiae voluptatem excepturi perspiciatis rerum cum laborum voluptatibus dicta delectus saepe adipisci atque possimus?</p>
+                  <ul>
+                     <li>• Audited by Certik</li>
+                     <li>• Special Surprise at 200k Mcap</li>
+                     <li>• Event Giveaway</li>
+                     <li>• Release Unitech Nfts</li>
+                     <li>• Nft Marketplace Beta Version</li>
+                     <li>• 5000k Holders!</li>
+                  </ul>
                </div>
             </div>
          </div>
       </section>
       <br><br>
       <!-- tokenomics -->
-      <section id="tokenomics" class="w-full h-min p-6">
-         <img src="../public/graph.png" alt="graph" width="100%">
+      <section id="tokenomics" class="w-full h-min grid place-content-center p-6">
+         <img src="../public/graph.png" alt="graph" class="tokenomics">
       </section>
+      <br><br>
       <!-- Comunnity -->
-      <section id="community" class="grid place-content-center w-full h-[85vh]">
-         <div class="flex flex-col items-center justify-around w-full h-[40vh] px-6 py-8">
-            <h1 class="text-center text-3xl font-bold">Everything is intgrated, That's The Beautiful Zeppelink</h1>
-            <a href="./community.html" class="bg-amber-300 px-5 py-4 font-bold rounded-lg shadow-md">Join community</a>
+      <section id="community" class="grid place-content-center w-full h-min">
+         <div class="flex flex-col items-center justify-around w-full h-min px-6 py-8">
+            <h1 class="text-center text-3xl font-bold">Everything is intgrated, That's The Beautiful Unitech Protocol</h1>
+         </div>
+         <br><br>
+         <div class="flex flex-col items-center justify-between w-full h-min px-6 py-8">
+            <h1 class="text-xl font-bold sm:text-2xl">Our stacking platform</h1>
+            <h1 class="text-xl font-bold sm:text-2xl">(Upcoming)</h1>
+            <br>
+            <img src="../public/aaa.jpeg" class="com">
+            <br>
+            <h1 class="text-xl font-bold">Support by:</h1>
+            <br>
+            <img src="../public/bbb.jpeg" class="com">
+            <br>
+            <img src="../public/ccc.jpeg" class="com">
+            <br>
+            <img src="../public/ddd.jpeg" class="com">
          </div>
       </section>
-      <!-- footer -->
-      <footer class="w-full h-min p-4 bg-slate-800">
-         <h1>This is footer</h1>
-      </footer>
    </div>
+   <!-- footer -->
+   <footer class="w-full px-4 py-8 bg-zinc-900 text-white flex flex-col justify-between items-center">
+      <h1>Copyright © 2022</h1>
+      <br>
+      <a href="https://web.telegram.org/z/#-1784727918" class="font-bold mb-1">Community</a>
+      <a href="https://www.instagram.com/unitechprotocol/">Instagram</a>
+      <a href="https://twitter.com/UnitechProtocol">Twitter</a>
+      <a href="https://web.telegram.org/z/#-1784727918">Telegram</a>
+      <a href="./soon.html">Discord</a>
+      <a href="./soon.html">Reddit</a>
+      <a href="./soon.html">Medium</a>
+      <h1 class="font-bold my-1">Resources<h1/>
+      <a href="../document/UnitechLitepaper.pdf">Litepaper</a>
+   </footer>
 
 <script src="./index.js"></script>
 </body>
